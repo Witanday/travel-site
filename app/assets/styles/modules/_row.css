@@ -1,11 +1,11 @@
 .row{
-
+    @mixin clearfix;
     &--gutters  {
         margin-right: -65px;
        
       }
   
-    @mixin clearfix;
+   
 
   &--gutters > div {
     padding-right: 65px;
@@ -32,4 +32,4 @@
         }
      }
    
-}
+}}

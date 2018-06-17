@@ -108,7 +108,7 @@ img{
     overflow: hidden;
     padding-left: 18px;
     padding-right: 18px;
-    max-width: 1200px;
+    max-width: 1236px;
     margin-left: auto;
     margin-right: auto;
 
@@ -195,14 +195,9 @@ img{
   }
 
 .row{
-  
     content: "";
-  
     clear: both;
-  
-    display: table;
-   
-}
+    display: table;}
 
 .row--gutters  {
         margin-right: -65px;
@@ -229,6 +224,10 @@ img{
         .row__medium-8{
             float: left;
             width: 66.66%;
+     }
+
+            .row__medium-8--large {
+                width: 63%;
         }
     }
 
